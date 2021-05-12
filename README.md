@@ -41,29 +41,29 @@
 
 1)   **INSURANCE DATABASE**
 
-   Consider the Insurance database given below. The primary keys are underlined and the data types are specified.
+     Consider the Insurance database given below. The primary keys are underlined and the data types are specified.
     
-   PERSON (driver-id #: String, name: String, address: String)
+     PERSON (driver-id #: String, name: String, address: String)
    
-   CAR (Regno: String, model: String, year: int)
+     CAR (Regno: String, model: String, year: int)
    
-   ACCIDENT (report-number: int, date: date, location: String)
+     ACCIDENT (report-number: int, date: date, location: String)
    
-   OWNS (driver-id #: String, Regno: String)
+     OWNS (driver-id #: String, Regno: String)
    
-   PARTICIPATED (driver-id: String, Regno: String, report-number: int, damage-amount: int)
+     PARTICIPATED (driver-id: String, Regno: String, report-number: int, damage-amount: int)
    
-   i) Create the above tables by properly specifying the primary keys and the foreign keys.
+     i) Create the above tables by properly specifying the primary keys and the foreign keys.
    
-   ii) Enter at least five tuples for each relation.
+     ii) Enter at least five tuples for each relation.
    
-   iii) Demonstrate how you
+     iii) Demonstrate how you
         a. Update the damage amount for the car with a specific Regno in the accident with report number 12 to 25000.
         b. Add a new accident to the database.
         
-   iv) Find the total number of people who owned cars that involved in accidents in 2008.
+     iv) Find the total number of people who owned cars that involved in accidents in 2008.
    
-   v) Find the number of accidents in which cars belonging to a specific model were involved.
+     v) Find the number of accidents in which cars belonging to a specific model were involved.
 
 ----------------------------------------------------------------------------------------------------
 
@@ -125,27 +125,27 @@
 
 4)  **BANKING ENTERPRISE DATABASE**
   
-   Consider the following database for a banking enterprise.
+    Consider the following database for a banking enterprise.
    
-   BRANCH (branch-name: String, branch-city: String, assets: real)
+    BRANCH (branch-name: String, branch-city: String, assets: real)
    
-   ACCOUNTS (accno: int, branch-name: String, balance: real)
+    ACCOUNTS (accno: int, branch-name: String, balance: real)
    
-   DEPOSITOR (customer-name: String, customer-street: String,customer-city: String)
+    DEPOSITOR (customer-name: String, customer-street: String,customer-city: String)
    
-   LOAN (loan-number: int, branch-name: String, amount: real)
+    LOAN (loan-number: int, branch-name: String, amount: real)
    
-   BORROWER (customer-name: String, loan-number: int)
+    BORROWER (customer-name: String, loan-number: int)
    
-   i) Create the above tables by properly specifying the primary keys and the foreign keys.
+    i) Create the above tables by properly specifying the primary keys and the foreign keys.
    
-   ii) Enter at least five tuples for each relation.
+    ii) Enter at least five tuples for each relation.
    
-   iii) Find all the customers who have at least two accounts at the Main branch.
+    iii) Find all the customers who have at least two accounts at the Main branch.
    
-   iv) Find all the customers who have an account at all the branches located in a specific city.
+    iv) Find all the customers who have an account at all the branches located in a specific city.
    
-   v) Demonstrate how you delete all account tuples at every branch located in a specific city
+    v) Demonstrate how you delete all account tuples at every branch located in a specific city
 
 ----------------------------------------------------------------------------------------------------
 5) **SUPPLIER DATABASE**
