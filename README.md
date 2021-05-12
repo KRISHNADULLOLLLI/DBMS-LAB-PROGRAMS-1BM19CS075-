@@ -39,20 +39,30 @@
 
 
 
-1) **INSURANCE DATABASE**
+1)   **INSURANCE DATABASE**
 
-   * Consider the Insurance database given below. The primary keys are underlined and the data types are specified.
+   Consider the Insurance database given below. The primary keys are underlined and the data types are specified.
+    
    PERSON (driver-id #: String, name: String, address: String)
+   
    CAR (Regno: String, model: String, year: int)
+   
    ACCIDENT (report-number: int, date: date, location: String)
+   
    OWNS (driver-id #: String, Regno: String)
+   
    PARTICIPATED (driver-id: String, Regno: String, report-number: int, damage-amount: int)
+   
    i) Create the above tables by properly specifying the primary keys and the foreign keys.
+   
    ii) Enter at least five tuples for each relation.
+   
    iii) Demonstrate how you
         a. Update the damage amount for the car with a specific Regno in the accident with report number 12 to 25000.
         b. Add a new accident to the database.
+        
    iv) Find the total number of people who owned cars that involved in accidents in 2008.
+   
    v) Find the number of accidents in which cars belonging to a specific model were involved.
 
 ----------------------------------------------------------------------------------------------------
