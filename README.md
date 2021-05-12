@@ -40,7 +40,8 @@
 
 
 1) **INSURANCE DATABASE**
-   Consider the Insurance database given below. The primary keys are underlined and the data types are specified.
+
+   * Consider the Insurance database given below. The primary keys are underlined and the data types are specified.
    PERSON (driver-id #: String, name: String, address: String)
    CAR (Regno: String, model: String, year: int)
    ACCIDENT (report-number: int, date: date, location: String)
