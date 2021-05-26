@@ -148,7 +148,35 @@
     v) Demonstrate how you delete all account tuples at every branch located in a specific city
 
 ----------------------------------------------------------------------------------------------------
-5) **SUPPLIER DATABASE**
+5) Consider the following database of student enrollment in courses and books adopted for
+   each course.
+   
+    STUDENT (regno: String, name: String, major: String, bdate: date)
+    
+    COURSE (course #: int, cname: String, dept: String)
+    
+    ENROLL (regno: String, cname: String, sem: int, marks: int)
+    
+    BOOK_ADOPTION (course #: int, sem: int, book-ISBN: int)
+    
+    TEXT(book-ISBN:int, book-title: String, publisher:String, author:String)
+    
+ i) Create the above tables by properly specifying the primary keys and the foreign keys.
+ 
+ ii) Enter at least five tuples for each relation.
+ 
+ iii) Demonstrate how you add a new text book to the database and make this book be
+      adopted by some department.
+      
+ iv) Produce a list of text books (include Course #, Book-ISBN, Book-title) in the
+     alphabetical order for courses offered by the ‘CS’ department that use more than two
+     books.
+     
+ v) List any department that has all its adopted books published by a specific publisher.
+
+
+----------------------------------------------------------------------------------------------------
+6) **SUPPLIER DATABASE**
    
    Consider the following schema:
    
@@ -173,10 +201,6 @@
    vi) For each part, find the sname of the supplier who charges the most for that part.
    
    vii)Find the sids of suppliers who supply only red parts
-
-
-----------------------------------------------------------------------------------------------------
-6) 
 
 ----------------------------------------------------------------------------------------------------
 7) 
