@@ -150,8 +150,8 @@
 ----------------------------------------------------------------------------------------------------
 5)  **STUDENT ENROLLMENT DATABASE**
    
-   Consider the following database of student enrollment in courses and books adopted for
-   each course.
+    Consider the following database of student enrollment in courses and books adopted for
+    each course.
    
     STUDENT (regno: String, name: String, major: String, bdate: date)
     
